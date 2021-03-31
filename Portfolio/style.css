@@ -1,0 +1,165 @@
+
+*{
+    padding: 0px;
+	margin: 0px;
+}
+.container{
+    background-color: #433037;
+    width: 980px;
+    height: 950px;
+    margin: 0px auto;
+
+}
+    .container .top{
+    min-height: 50px;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content:space-between;
+    }
+    .container .top .top-left{
+        display: inline-block;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+        .container .top .top-left p{
+            font-size: 20px;
+            font-weight: bold;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    .container .top .top-right{
+        display: inline-block;
+        margin-right: 15px;
+        margin-top: 10px;
+        
+    }
+        .container .top .top-right p{
+            font-size: 17px;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+        }
+.top-content{
+    height: 250px;
+    vertical-align: top;
+    margin: 20px;
+    display: flex;
+    justify-content:space-between;
+    
+}
+    .top-content .pic{
+        background-color: #C0C0C0;
+        min-height:200px;
+        display: inline-block;
+        width: 400px;
+        padding: 10px;
+    }
+        .top-content .pic img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            overflow: hidden;
+        }
+    .top-content .about{
+        height: 250px;
+        width: 500px;
+        display: inline-block;
+        margin-left: 40px;
+        background-color: #EDE6EC;
+    }
+     
+    .divHeader
+    {
+        background-color: snow;
+            height: 50px;
+            display: flex;
+            background-color: #8E8C98;
+            background: linear-gradient(#bdbdbf, #888694, #bdbdbf);
+            
+    }
+        
+.btm-content{
+    height: 350px;
+    vertical-align: top;
+    margin: 20px;
+    display: flex;
+    justify-content:space-between;
+    
+}
+    .btm-content button{
+    background-color: green;
+	color:white;
+	border:solid 1px black;
+	border-radius: 3px;
+	padding:5px;
+	margin: 10px 100px;
+	font-weight: 900;
+    }
+    .btm-content .LaMode{
+   
+        height: 510px;
+        width: 270px;
+        display: inline-block;
+        background-color: #DBCCDA;
+        
+    }
+        .btm-content img{
+            height: 150px;
+            width: 270px;
+           
+        }
+        
+
+         h3{
+            padding-left: 10px;
+            color: white;
+            margin-top: 10px;
+        }
+            .btm-content .tech-imgs{
+                padding:15px 0px 0px 12px;
+             }
+                .tech-imgs img{
+	                width:40px;
+	                height:40px;
+                }
+    .btm-content .contact{
+        background-color: blue;
+        height: 510px;
+        width: 270px;
+        display: inline-block;
+        margin-top: 0px;
+        background-color: #DBCCDA;
+    
+    }
+    .contact img{
+            height: 150px;
+            width: 270px;
+           
+        }
+        .contact .tech-imgs img{
+	                width:40px;
+	                height:40px;
+                }
+    .btm-content .fiveEleven{
+       
+        height: 510px;
+        width: 270px;
+        display: inline-block;
+        background-color: #DBCCDA;
+    }
+.footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #F7F7F7;
+    margin-top: 200px;
+    
+}
+.social{
+    display: inline-flex;
+    width: 362px;
+    padding: 10px;
+    margin: auto;
+    font-style: italic;
+}
+.footer img {
+	width: 20px;
+	margin:auto;
+} 
